@@ -17,7 +17,7 @@
       </v-row>
       <v-row justify="center">
         <v-col cols="12" lg="4">
-          <togle-bottuns
+          <toggle-bottuns
             :option="{fab: true}"
             :active="activeColumn"
             :activeColor="'#FFBFBF'"
@@ -25,9 +25,9 @@
             :lists="onomatopeLists"
             label="label"
             @my-click="activeColumn = $event"
-          ></togle-bottuns>
+          ></toggle-bottuns>
 
-          <togle-bottuns
+          <toggle-bottuns
             :option="{rounded: true}"
             :active="selectedWord"
             :activeColor="'#FFBFBF'"
@@ -35,7 +35,7 @@
             :lists="activeColumn.words"
             label="word"
             @my-click="selectedWord = $event"
-          ></togle-bottuns>
+          ></toggle-bottuns>
         </v-col>
         <v-col cols="12" lg="4">
           <v-card
@@ -53,11 +53,11 @@
 </template>
 
 <script>
-import TogleBottuns from '../molecules/TogleBottuns.vue';
+import ToggleBottuns from '../molecules/ToggleBottuns.vue';
 
 export default {
   components: {
-    TogleBottuns,
+    ToggleBottuns,
   },
   data() {
     return {
