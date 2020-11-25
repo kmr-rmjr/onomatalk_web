@@ -1,5 +1,8 @@
 <template>
-  <translate></translate>
+  <v-app>
+    <v-tool-bar></v-tool-bar>
+    <translate></translate>
+  </v-app>
 </template>
 
 <script>

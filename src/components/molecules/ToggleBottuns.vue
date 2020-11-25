@@ -3,8 +3,9 @@
  */
 
 <template>
-  <div>
+  <v-row :justify="justify">
     <v-btn
+      :class="className"
       v-bind="option"
       dark
       :color="ColoringBtn(list, activeColor, passiveColor)"
@@ -12,12 +13,12 @@
       :key='list.label'
       @click="ChangeActive(list)"
     >{{list[label]}}</v-btn>
-  </div>
+  </v-row>
 </template>
 
 <script>
 export default {
-  props: ['lists', 'activeColor', 'passiveColor', 'active', 'label', 'option'],
+  props: ['lists', 'activeColor', 'passiveColor', 'active', 'label', 'option', 'justify', 'className'],
   methods: {
     ChangeActive(lab) {
       this.$emit('my-click', lab);
