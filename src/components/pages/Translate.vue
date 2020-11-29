@@ -3,6 +3,7 @@
     <v-row justify="center">
       <v-col cols="12" lg="4" md="5" sm="6">
         <v-text-field
+          :color="activeColor"
           outlined
           label="どこが痛みますか？"
           :value="part"
@@ -11,6 +12,7 @@
       </v-col>
       <v-col cols="12" lg="4" md="5" sm="6">
         <v-select
+          :color="activeColor"
           v-model="targetLang"
           :items="languages"
           item-text="lang"
@@ -26,8 +28,8 @@
           justify="space-between"
           :option="{fab: true}"
           :active="activeColumn"
-          :activeColor="'#FFBFBF'"
-          :passiveColor="'#dddddd'"
+          :activeColor="activeColor"
+          :passiveColor="passiveColor"
           :lists="onomatopeLists"
           label="label"
           @my-click="activeColumn = $event"
@@ -37,8 +39,8 @@
           :className="['mx-2', 'mt-3']"
           :option="{rounded: true}"
           :active="selectedWord"
-          :activeColor="'#FFBFBF'"
-          :passiveColor="'#dddddd'"
+          :activeColor="activeColor"
+          :passiveColor="passiveColor"
           :lists="activeColumn.words"
           label="word"
           @my-click="selectedWord = $event"
@@ -47,7 +49,7 @@
       <v-col cols="12" lg="4" md="10">
         <v-card
           height="150"
-          color="#FFBFBF"
+          :color="activeColor"
           id="translated-area"
         >
           <v-card-text>
@@ -65,6 +67,16 @@ import Axios from 'axios';
 import languageList from '@/assets/language_list.json'
 
 export default {
+  props: {
+    activeColor: {
+      type: String,
+      required: true,
+    },
+    passiveColor: {
+      type: String,
+      required: true,
+    }
+  },
   components: {
     ToggleBottuns,
   },
