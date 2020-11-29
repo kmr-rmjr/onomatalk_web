@@ -18,7 +18,42 @@
 
 <script>
 export default {
-  props: ['lists', 'activeColor', 'passiveColor', 'active', 'label', 'option', 'justify', 'className'],
+  props: {
+    lists: {
+      type: Array,
+      required: true
+    },
+    activeColor: {
+      type: String,
+      required: true
+    },
+    passiveColor: {
+      type: String,
+      required: true
+    },
+    active: {
+      type: Object,
+      required: true
+    },
+    label: {
+      type: String,
+      required: true
+    },
+    option: {
+      type: Object,
+      required: false
+    },
+    justify: {
+      type: String,
+      required: false
+    },
+    className: {
+      type: Array,
+      required: false
+    }
+
+  },
+  // props: ['lists', 'activeColor', 'passiveColor', 'active', 'label', 'option', 'justify', 'className'],
   methods: {
     ChangeActive(lab) {
       this.$emit('my-click', lab);

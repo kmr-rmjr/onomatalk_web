@@ -1,0 +1,997 @@
+[{
+    "lang": "アイスランド語 ",
+    "code": "is"
+},{
+    "lang": "アイルランド語 ",
+    "code": "ga"
+},{
+    "lang": "アゼルバイジャン語 ",
+    "code": "az"
+},{
+    "lang": "アフリカーンス語 ",
+    "code": "af"
+},{
+    "lang": "アムハラ語 ",
+    "code": "am"
+},{
+    "lang": "アラビア文字 ",
+    "code": "ar"
+},{
+    "lang": "アルバニア語 ",
+    "code": "sq"
+},{
+    "lang": "アルメニア語 ",
+    "code": "hy"
+},{
+    "lang": "イタリア語 ",
+    "code": "it"
+},{
+    "lang": "イディッシュ語 ",
+    "code": "yi"
+},{
+    "lang": "アイスランド語 ",
+    "code": "is"
+},{
+    "lang": "アイルランド語 ",
+    "code": "ga"
+},{
+    "lang": "アゼルバイジャン語 ",
+    "code": "az"
+},{
+    "lang": "アフリカーンス語 ",
+    "code": "af"
+},{
+    "lang": "アムハラ語 ",
+    "code": "am"
+},{
+    "lang": "アラビア文字 ",
+    "code": "ar"
+},{
+    "lang": "アルバニア語 ",
+    "code": "sq"
+},{
+    "lang": "アルメニア語 ",
+    "code": "hy"
+},{
+    "lang": "イタリア語 ",
+    "code": "it"
+},{
+    "lang": "イディッシュ語 ",
+    "code": "yi"
+},{
+    "lang": "イボ語 ",
+    "code": "ig"
+},{
+    "lang": "インドネシア語 ",
+    "code": "lang"
+},{
+    "lang": "ウイグル語 ",
+    "code": "ug"
+},{
+    "lang": "ウェールズ語 ",
+    "code": "cy"
+},{
+    "lang": "ウクライナ語 ",
+    "code": "uk"
+},{
+    "lang": "ウズベク語 ",
+    "code": "uz"
+},{
+    "lang": "ウルドゥー語 ",
+    "code": "ur"
+},{
+    "lang": "英語 ",
+    "code": "en"
+},{
+    "lang": "エストニア語 ",
+    "code": "et"
+},{
+    "lang": "エスペラント語 ",
+    "code": "eo"
+},{
+    "lang": "オランダ語 ",
+    "code": "nl"
+},{
+    "lang": "オリヤ語 ",
+    "code": "or"
+},{
+    "lang": "カザフ語 ",
+    "code": "kk"
+},{
+    "lang": "カタロニア語 ",
+    "code": "ca"
+},{
+    "lang": "ガリシア語 ",
+    "code": "gl"
+},{
+    "lang": "韓国語 ",
+    "code": "ko"
+},{
+    "lang": "カンナダ語 ",
+    "code": "kn"
+},{
+    "lang": "キニヤルワンダ語 ",
+    "code": "rw"
+},{
+    "lang": "ギリシャ語 ",
+    "code": "el"
+},{
+    "lang": "キルギス語 ",
+    "code": "ky"
+},{
+    "lang": "グジャラト語 ",
+    "code": "gu"
+},{
+    "lang": "クメール語 ",
+    "code": "km"
+},{
+    "lang": "グルジア語 ",
+    "code": "ka"
+},{
+    "lang": "クルド語 ",
+    "code": "ku"
+},{
+    "lang": "クレオール語",
+    "code": "ht"
+},{
+    "lang": "クロアチア語 ",
+    "code": "hr"
+},{
+    "lang": "コーサ語 ",
+    "code": "xh"
+},{
+    "lang": "コルシカ語 ",
+    "code": "co"
+},{
+    "lang": "サモア語 ",
+    "code": "sm"
+},{
+    "lang": "ジャワ語 ",
+    "code": "jv"
+},{
+    "lang": "ショナ語 ",
+    "code": "sn"
+},{
+    "lang": "シンド語 ",
+    "code": "sd"
+},{
+    "lang": "シンハラ語 ",
+    "code": "si"
+},{
+    "lang": "スウェーデン語 ",
+    "code": "sv"
+},{
+    "lang": "ズールー語 ",
+    "code": "zu"
+},{
+    "lang": "スコットランド ゲール語 ",
+    "code": "gd"
+},{
+    "lang": "スペイン語 ",
+    "code": "es"
+},{
+    "lang": "スロバキア語 ",
+    "code": "sk"
+},{
+    "lang": "スロベニア語 ",
+    "code": "sl"
+},{
+    "lang": "スワヒリ語 ",
+    "code": "sw"
+},{
+    "lang": "スンダ語 ",
+    "code": "su"
+},{
+    "lang": "セソト語 ",
+    "code": "st"
+},{
+    "lang": "セブ語 ",
+    "code": "ceb"
+},{
+    "lang": "セルビア語 ",
+    "code": "sr"
+},{
+    "lang": "ソマリ語 ",
+    "code": "so"
+},{
+    "lang": "タイ語 ",
+    "code": "th"
+},{
+    "lang": "タガログ語 ",
+    "code": "tl"
+},{
+    "lang": "タジク語 ",
+    "code": "tg"
+},{
+    "lang": "タタール語 ",
+    "code": "tt"
+},{
+    "lang": "タミル語 ",
+    "code": "ta"
+},{
+    "lang": "チェコ語 ",
+    "code": "cs"
+},{
+    "lang": "中国語（簡体） ",
+    "code": "zh"
+},{
+    "lang": "中国語（繁体） ",
+    "code": "zh-TW"
+},{
+    "lang": "テルグ語 ",
+    "code": "te"
+},{
+    "lang": "デンマーク語 ",
+    "code": "da"
+},{
+    "lang": "ドイツ語 ",
+    "code": "de"
+},{
+    "lang": "トルクメン語 ",
+    "code": "tk"
+},{
+    "lang": "トルコ語 ",
+    "code": "tr"
+},{
+    "lang": "ニャンジャ語（チェワ語） ",
+    "code": "ny"
+},{
+    "lang": "ネパール語 ",
+    "code": "ne"
+},{
+    "lang": "ノルウェー語 ",
+    "code": "no"
+},{
+    "lang": "ハウサ語 ",
+    "code": "ha"
+},{
+    "lang": "パシュト語 ",
+    "code": "ps"
+},{
+    "lang": "バスク語 ",
+    "code": "eu"
+},{
+    "lang": "ハワイ語 ",
+    "code": "haw"
+},{
+    "lang": "ハンガリー語 ",
+    "code": "hu"
+},{
+    "lang": "パンジャブ語 ",
+    "code": "pa"
+},{
+    "lang": "ヒンディー語 ",
+    "code": "hi"
+},{
+    "lang": "フィンランド語 ",
+    "code": "fi"
+},{
+    "lang": "フランス語 ",
+    "code": "fr"
+},{
+    "lang": "フリジア語 ",
+    "code": "fy"
+},{
+    "lang": "ブルガリア語 ",
+    "code": "bg"
+},{
+    "lang": "ベトナム語 ",
+    "code": "vi"
+},{
+    "lang": "ヘブライ語 ",
+    "code": "he"
+},{
+    "lang": "ベラルーシ語 ",
+    "code": "be"
+},{
+    "lang": "ペルシャ語 ",
+    "code": "fa"
+},{
+    "lang": "ベンガル文字 ",
+    "code": "bn"
+},{
+    "lang": "ポーランド語 ",
+    "code": "pl"
+},{
+    "lang": "ボスニア語 ",
+    "code": "bs"
+},{
+    "lang": "ポルトガル語",
+    "code": "pt"
+},{
+    "lang": "マオリ語 ",
+    "code": "mi"
+},{
+    "lang": "マケドニア語 ",
+    "code": "mk"
+},{
+    "lang": "マラーティー語 ",
+    "code": "mr"
+},{
+    "lang": "マラガシ語 ",
+    "code": "mg"
+},{
+    "lang": "マラヤーラム文字 ",
+    "code": "ml"
+},{
+    "lang": "マルタ語 ",
+    "code": "mt"
+},{
+    "lang": "マレー語 ",
+    "code": "ms"
+},{
+    "lang": "ミャンマー語（ビルマ語） ",
+    "code": "my"
+},{
+    "lang": "モンゴル語 ",
+    "code": "mn"
+},{
+    "lang": "モン語 ",
+    "code": "hmn"
+},{
+    "lang": "ヨルバ語 ",
+    "code": "yo"
+},{
+    "lang": "ラオ語 ",
+    "code": "lo"
+},{
+    "lang": "ラテン語 ",
+    "code": "la"
+},{
+    "lang": "ラトビア語 ",
+    "code": "lv"
+},{
+    "lang": "リトアニア語 ",
+    "code": "lt"
+},{
+    "lang": "ルーマニア語 ",
+    "code": "ro"
+},{
+    "lang": "ルクセンブルク語 ",
+    "code": "lb"
+},{
+    "lang": "アイスランド語 ",
+    "code": "is"
+},{
+    "lang": "アイルランド語 ",
+    "code": "ga"
+},{
+    "lang": "アゼルバイジャン語 ",
+    "code": "az"
+},{
+    "lang": "アフリカーンス語 ",
+    "code": "af"
+},{
+    "lang": "アムハラ語 ",
+    "code": "am"
+},{
+    "lang": "アラビア文字 ",
+    "code": "ar"
+},{
+    "lang": "アルバニア語 ",
+    "code": "sq"
+},{
+    "lang": "アルメニア語 ",
+    "code": "hy"
+},{
+    "lang": "イタリア語 ",
+    "code": "it"
+},{
+    "lang": "イディッシュ語 ",
+    "code": "yi"
+},{
+    "lang": "イボ語 ",
+    "code": "ig"
+},{
+    "lang": "インドネシア語 ",
+    "code": "lang"
+},{
+    "lang": "ウイグル語 ",
+    "code": "ug"
+},{
+    "lang": "ウェールズ語 ",
+    "code": "cy"
+},{
+    "lang": "ウクライナ語 ",
+    "code": "uk"
+},{
+    "lang": "ウズベク語 ",
+    "code": "uz"
+},{
+    "lang": "ウルドゥー語 ",
+    "code": "ur"
+},{
+    "lang": "英語 ",
+    "code": "en"
+},{
+    "lang": "エストニア語 ",
+    "code": "et"
+},{
+    "lang": "エスペラント語 ",
+    "code": "eo"
+},{
+    "lang": "オランダ語 ",
+    "code": "nl"
+},{
+    "lang": "オリヤ語 ",
+    "code": "or"
+},{
+    "lang": "カザフ語 ",
+    "code": "kk"
+},{
+    "lang": "カタロニア語 ",
+    "code": "ca"
+},{
+    "lang": "ガリシア語 ",
+    "code": "gl"
+},{
+    "lang": "韓国語 ",
+    "code": "ko"
+},{
+    "lang": "カンナダ語 ",
+    "code": "kn"
+},{
+    "lang": "キニヤルワンダ語 ",
+    "code": "rw"
+},{
+    "lang": "ギリシャ語 ",
+    "code": "el"
+},{
+    "lang": "キルギス語 ",
+    "code": "ky"
+},{
+    "lang": "グジャラト語 ",
+    "code": "gu"
+},{
+    "lang": "クメール語 ",
+    "code": "km"
+},{
+    "lang": "グルジア語 ",
+    "code": "ka"
+},{
+    "lang": "クルド語 ",
+    "code": "ku"
+},{
+    "lang": "クレオール語",
+    "code": "ht"
+},{
+    "lang": "クロアチア語 ",
+    "code": "hr"
+},{
+    "lang": "コーサ語 ",
+    "code": "xh"
+},{
+    "lang": "コルシカ語 ",
+    "code": "co"
+},{
+    "lang": "サモア語 ",
+    "code": "sm"
+},{
+    "lang": "ジャワ語 ",
+    "code": "jv"
+},{
+    "lang": "ショナ語 ",
+    "code": "sn"
+},{
+    "lang": "シンド語 ",
+    "code": "sd"
+},{
+    "lang": "シンハラ語 ",
+    "code": "si"
+},{
+    "lang": "スウェーデン語 ",
+    "code": "sv"
+},{
+    "lang": "ズールー語 ",
+    "code": "zu"
+},{
+    "lang": "スコットランド ゲール語 ",
+    "code": "gd"
+},{
+    "lang": "スペイン語 ",
+    "code": "es"
+},{
+    "lang": "スロバキア語 ",
+    "code": "sk"
+},{
+    "lang": "スロベニア語 ",
+    "code": "sl"
+},{
+    "lang": "スワヒリ語 ",
+    "code": "sw"
+},{
+    "lang": "スンダ語 ",
+    "code": "su"
+},{
+    "lang": "セソト語 ",
+    "code": "st"
+},{
+    "lang": "セブ語 ",
+    "code": "ceb"
+},{
+    "lang": "セルビア語 ",
+    "code": "sr"
+},{
+    "lang": "ソマリ語 ",
+    "code": "so"
+},{
+    "lang": "タイ語 ",
+    "code": "th"
+},{
+    "lang": "タガログ語 ",
+    "code": "tl"
+},{
+    "lang": "タジク語 ",
+    "code": "tg"
+},{
+    "lang": "タタール語 ",
+    "code": "tt"
+},{
+    "lang": "タミル語 ",
+    "code": "ta"
+},{
+    "lang": "チェコ語 ",
+    "code": "cs"
+},{
+    "lang": "中国語（簡体） ",
+    "code": "zh"
+},{
+    "lang": "中国語（繁体） ",
+    "code": "zh-TW"
+},{
+    "lang": "テルグ語 ",
+    "code": "te"
+},{
+    "lang": "デンマーク語 ",
+    "code": "da"
+},{
+    "lang": "ドイツ語 ",
+    "code": "de"
+},{
+    "lang": "トルクメン語 ",
+    "code": "tk"
+},{
+    "lang": "トルコ語 ",
+    "code": "tr"
+},{
+    "lang": "ニャンジャ語（チェワ語） ",
+    "code": "ny"
+},{
+    "lang": "ネパール語 ",
+    "code": "ne"
+},{
+    "lang": "ノルウェー語 ",
+    "code": "no"
+},{
+    "lang": "ハウサ語 ",
+    "code": "ha"
+},{
+    "lang": "パシュト語 ",
+    "code": "ps"
+},{
+    "lang": "バスク語 ",
+    "code": "eu"
+},{
+    "lang": "ハワイ語 ",
+    "code": "haw"
+},{
+    "lang": "ハンガリー語 ",
+    "code": "hu"
+},{
+    "lang": "パンジャブ語 ",
+    "code": "pa"
+},{
+    "lang": "ヒンディー語 ",
+    "code": "hi"
+},{
+    "lang": "フィンランド語 ",
+    "code": "fi"
+},{
+    "lang": "フランス語 ",
+    "code": "fr"
+},{
+    "lang": "フリジア語 ",
+    "code": "fy"
+},{
+    "lang": "ブルガリア語 ",
+    "code": "bg"
+},{
+    "lang": "ベトナム語 ",
+    "code": "vi"
+},{
+    "lang": "ヘブライ語 ",
+    "code": "he"
+},{
+    "lang": "ベラルーシ語 ",
+    "code": "be"
+},{
+    "lang": "ペルシャ語 ",
+    "code": "fa"
+},{
+    "lang": "ベンガル文字 ",
+    "code": "bn"
+},{
+    "lang": "ポーランド語 ",
+    "code": "pl"
+},{
+    "lang": "ボスニア語 ",
+    "code": "bs"
+},{
+    "lang": "ポルトガル語",
+    "code": "pt"
+},{
+    "lang": "マオリ語 ",
+    "code": "mi"
+},{
+    "lang": "マケドニア語 ",
+    "code": "mk"
+},{
+    "lang": "マラーティー語 ",
+    "code": "mr"
+},{
+    "lang": "マラガシ語 ",
+    "code": "mg"
+},{
+    "lang": "マラヤーラム文字 ",
+    "code": "ml"
+},{
+    "lang": "マルタ語 ",
+    "code": "mt"
+},{
+    "lang": "マレー語 ",
+    "code": "ms"
+},{
+    "lang": "ミャンマー語（ビルマ語） ",
+    "code": "my"
+},{
+    "lang": "モンゴル語 ",
+    "code": "mn"
+},{
+    "lang": "モン語 ",
+    "code": "hmn"
+},{
+    "lang": "ヨルバ語 ",
+    "code": "yo"
+},{
+    "lang": "ラオ語 ",
+    "code": "lo"
+},{
+    "lang": "ラテン語 ",
+    "code": "la"
+},{
+    "lang": "ラトビア語 ",
+    "code": "lv"
+},{
+    "lang": "リトアニア語 ",
+    "code": "lt"
+},{
+    "lang": "ルーマニア語 ",
+    "code": "ro"
+},{
+    "lang": "ルクセンブルク語 ",
+    "code": "lb"
+},{
+    "lang": "アイスランド語 ",
+    "code": "is"
+},{
+    "lang": "アイルランド語 ",
+    "code": "ga"
+},{
+    "lang": "アゼルバイジャン語 ",
+    "code": "az"
+},{
+    "lang": "アフリカーンス語 ",
+    "code": "af"
+},{
+    "lang": "アムハラ語 ",
+    "code": "am"
+},{
+    "lang": "アラビア文字 ",
+    "code": "ar"
+},{
+    "lang": "アルバニア語 ",
+    "code": "sq"
+},{
+    "lang": "アルメニア語 ",
+    "code": "hy"
+},{
+    "lang": "イタリア語 ",
+    "code": "it"
+},{
+    "lang": "イディッシュ語 ",
+    "code": "yi"
+},{
+    "lang": "イボ語 ",
+    "code": "ig"
+},{
+    "lang": "インドネシア語 ",
+    "code": "lang"
+},{
+    "lang": "ウイグル語 ",
+    "code": "ug"
+},{
+    "lang": "ウェールズ語 ",
+    "code": "cy"
+},{
+    "lang": "ウクライナ語 ",
+    "code": "uk"
+},{
+    "lang": "ウズベク語 ",
+    "code": "uz"
+},{
+    "lang": "ウルドゥー語 ",
+    "code": "ur"
+},{
+    "lang": "英語 ",
+    "code": "en"
+},{
+    "lang": "エストニア語 ",
+    "code": "et"
+},{
+    "lang": "エスペラント語 ",
+    "code": "eo"
+},{
+    "lang": "オランダ語 ",
+    "code": "nl"
+},{
+    "lang": "オリヤ語 ",
+    "code": "or"
+},{
+    "lang": "カザフ語 ",
+    "code": "kk"
+},{
+    "lang": "カタロニア語 ",
+    "code": "ca"
+},{
+    "lang": "ガリシア語 ",
+    "code": "gl"
+},{
+    "lang": "韓国語 ",
+    "code": "ko"
+},{
+    "lang": "カンナダ語 ",
+    "code": "kn"
+},{
+    "lang": "キニヤルワンダ語 ",
+    "code": "rw"
+},{
+    "lang": "ギリシャ語 ",
+    "code": "el"
+},{
+    "lang": "キルギス語 ",
+    "code": "ky"
+},{
+    "lang": "グジャラト語 ",
+    "code": "gu"
+},{
+    "lang": "クメール語 ",
+    "code": "km"
+},{
+    "lang": "グルジア語 ",
+    "code": "ka"
+},{
+    "lang": "クルド語 ",
+    "code": "ku"
+},{
+    "lang": "クレオール語",
+    "code": "ht"
+},{
+    "lang": "クロアチア語 ",
+    "code": "hr"
+},{
+    "lang": "コーサ語 ",
+    "code": "xh"
+},{
+    "lang": "コルシカ語 ",
+    "code": "co"
+},{
+    "lang": "サモア語 ",
+    "code": "sm"
+},{
+    "lang": "ジャワ語 ",
+    "code": "jv"
+},{
+    "lang": "ショナ語 ",
+    "code": "sn"
+},{
+    "lang": "シンド語 ",
+    "code": "sd"
+},{
+    "lang": "シンハラ語 ",
+    "code": "si"
+},{
+    "lang": "スウェーデン語 ",
+    "code": "sv"
+},{
+    "lang": "ズールー語 ",
+    "code": "zu"
+},{
+    "lang": "スコットランド ゲール語 ",
+    "code": "gd"
+},{
+    "lang": "スペイン語 ",
+    "code": "es"
+},{
+    "lang": "スロバキア語 ",
+    "code": "sk"
+},{
+    "lang": "スロベニア語 ",
+    "code": "sl"
+},{
+    "lang": "スワヒリ語 ",
+    "code": "sw"
+},{
+    "lang": "スンダ語 ",
+    "code": "su"
+},{
+    "lang": "セソト語 ",
+    "code": "st"
+},{
+    "lang": "セブ語 ",
+    "code": "ceb"
+},{
+    "lang": "セルビア語 ",
+    "code": "sr"
+},{
+    "lang": "ソマリ語 ",
+    "code": "so"
+},{
+    "lang": "タイ語 ",
+    "code": "th"
+},{
+    "lang": "タガログ語 ",
+    "code": "tl"
+},{
+    "lang": "タジク語 ",
+    "code": "tg"
+},{
+    "lang": "タタール語 ",
+    "code": "tt"
+},{
+    "lang": "タミル語 ",
+    "code": "ta"
+},{
+    "lang": "チェコ語 ",
+    "code": "cs"
+},{
+    "lang": "中国語（簡体） ",
+    "code": "zh"
+},{
+    "lang": "中国語（繁体） ",
+    "code": "zh-TW"
+},{
+    "lang": "テルグ語 ",
+    "code": "te"
+},{
+    "lang": "デンマーク語 ",
+    "code": "da"
+},{
+    "lang": "ドイツ語 ",
+    "code": "de"
+},{
+    "lang": "トルクメン語 ",
+    "code": "tk"
+},{
+    "lang": "トルコ語 ",
+    "code": "tr"
+},{
+    "lang": "ニャンジャ語（チェワ語） ",
+    "code": "ny"
+},{
+    "lang": "ネパール語 ",
+    "code": "ne"
+},{
+    "lang": "ノルウェー語 ",
+    "code": "no"
+},{
+    "lang": "ハウサ語 ",
+    "code": "ha"
+},{
+    "lang": "パシュト語 ",
+    "code": "ps"
+},{
+    "lang": "バスク語 ",
+    "code": "eu"
+},{
+    "lang": "ハワイ語 ",
+    "code": "haw"
+},{
+    "lang": "ハンガリー語 ",
+    "code": "hu"
+},{
+    "lang": "パンジャブ語 ",
+    "code": "pa"
+},{
+    "lang": "ヒンディー語 ",
+    "code": "hi"
+},{
+    "lang": "フィンランド語 ",
+    "code": "fi"
+},{
+    "lang": "フランス語 ",
+    "code": "fr"
+},{
+    "lang": "フリジア語 ",
+    "code": "fy"
+},{
+    "lang": "ブルガリア語 ",
+    "code": "bg"
+},{
+    "lang": "ベトナム語 ",
+    "code": "vi"
+},{
+    "lang": "ヘブライ語 ",
+    "code": "he"
+},{
+    "lang": "ベラルーシ語 ",
+    "code": "be"
+},{
+    "lang": "ペルシャ語 ",
+    "code": "fa"
+},{
+    "lang": "ベンガル文字 ",
+    "code": "bn"
+},{
+    "lang": "ポーランド語 ",
+    "code": "pl"
+},{
+    "lang": "ボスニア語 ",
+    "code": "bs"
+},{
+    "lang": "ポルトガル語",
+    "code": "pt"
+},{
+    "lang": "マオリ語 ",
+    "code": "mi"
+},{
+    "lang": "マケドニア語 ",
+    "code": "mk"
+},{
+    "lang": "マラーティー語 ",
+    "code": "mr"
+},{
+    "lang": "マラガシ語 ",
+    "code": "mg"
+},{
+    "lang": "マラヤーラム文字 ",
+    "code": "ml"
+},{
+    "lang": "マルタ語 ",
+    "code": "mt"
+},{
+    "lang": "マレー語 ",
+    "code": "ms"
+},{
+    "lang": "ミャンマー語（ビルマ語） ",
+    "code": "my"
+},{
+    "lang": "モンゴル語 ",
+    "code": "mn"
+},{
+    "lang": "モン語 ",
+    "code": "hmn"
+},{
+    "lang": "ヨルバ語 ",
+    "code": "yo"
+},{
+    "lang": "ラオ語 ",
+    "code": "lo"
+},{
+    "lang": "ラテン語 ",
+    "code": "la"
+},{
+    "lang": "ラトビア語 ",
+    "code": "lv"
+},{
+    "lang": "リトアニア語 ",
+    "code": "lt"
+},{
+    "lang": "ルーマニア語 ",
+    "code": "ro"
+},{
+    "lang": "ルクセンブルク語 ",
+    "code": "lb"
+},{
+    "lang": "ロシア語 ",
+    "code": "ru"
+}]

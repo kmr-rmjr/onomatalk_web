@@ -1,6 +1,5 @@
 <template>
   <v-container fluid>
-    <p>{{part}}</p>
     <v-row justify="center">
       <v-col cols="12" lg="4" md="5" sm="6">
         <v-text-field
@@ -12,8 +11,12 @@
       </v-col>
       <v-col cols="12" lg="4" md="5" sm="6">
         <v-select
-          outlined
+          v-model="targetLang"
+          :items="languages"
+          item-text="lang"
+          item-value="code"
           label="翻訳先"
+          outlined
         ></v-select>
       </v-col>
     </v-row>
@@ -43,8 +46,9 @@
       </v-col>
       <v-col cols="12" lg="4" md="10">
         <v-card
-          height="200"
+          height="150"
           color="#FFBFBF"
+          id="translated-area"
         >
           <v-card-text>
             <p>{{translatedText}}</p>
@@ -56,7 +60,9 @@
 </template>
 
 <script>
-import ToggleBottuns from '../molecules/ToggleBottuns.vue';
+import ToggleBottuns from '@/components/molecules/ToggleBottuns.vue';
+import Axios from 'axios';
+import languageList from '@/assets/language_list.json'
 
 export default {
   components: {
@@ -65,47 +71,47 @@ export default {
   data() {
     return {
       part: "",
-      activeColumn: "",
-      selectedWord: "",
+      activeColumn: {lebel: "", words: []},
+      selectedWord: {word: "", explanation: ""},
       translatedText: "",
-      languages: [{lang: '英語', code: 'en'}, {lang: 'フランス語', code: 'fr'}],
-      onomatopeLists: {
-        aColumn: {
-          label: 'あ',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
-        kColumn: {
-          label: 'か',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
-        sColumn: {
-          label: 'さ',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
-        tColumn: {
-          label: 'た',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
-        hColumn: {
-          label: 'は',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
-        mColumn: {
-          label: 'ま',
-          words: [{word: 'イガイガ', explanation: '説明文'}, {word: 'ウズウズ', explanation: '説明文'}]
-        },
+      targetLang: "en",
+      languages: languageList,
+      onomatopeLists: [{label: "", words: []}],
+    }
+  },
+  methods: {
+    translate() {
+      if(this.part != "" && this.selectedWord.word != "" && this.targetLang != "") {
+        this.$vuetify.goTo('#translated-area');
+        this.translatedText = "翻訳中...";
+        Axios.post(process.env.VUE_APP_TRANSLATE_URL, {
+          source: 'ja',
+          target: this.targetLang,
+          transcript: this.part + this.selectedWord.explanation
+        }).then(data => {
+          this.translatedText = data.data.translatedText;
+        })
       }
     }
   },
+  watch: {
+    part() {
+      this.translate();
+    },
+    selectedWord() {
+      this.translate();
+    },
+    targetLang() {
+      this.translate();
+    }
+  },
   created() {
-    this.activeColumn = this.onomatopeLists.aColumn;
+    Axios.get(process.env.VUE_APP_GET_ONOMATOPE_LIST_URL)
+        .then(responce => {
+          this.onomatopeLists = responce.data;
+          this.activeColumn = this.onomatopeLists[0];
+        });
     this.translatedText = 'こちらに翻訳結果が表示されます。'
   }
 }
 </script>
-
-<style>
-  body {
-    font-family: Hiragino Sans,Meiryo,sans-serif;;
-  }
-</style>

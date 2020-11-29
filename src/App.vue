@@ -1,12 +1,22 @@
 <template>
   <v-app>
-    <v-tool-bar></v-tool-bar>
-    <translate></translate>
+    <header>
+      <v-app-bar
+        flat
+        color="#FFBFBF"
+      ></v-app-bar>
+    </header>
+    <v-main>
+      <translate></translate>
+    </v-main>
+    <v-footer>
+      <p>footer</p>
+    </v-footer>
   </v-app>
 </template>
 
 <script>
-import Translate from './components/pages/Translate.vue';
+import Translate from '@/components/pages/Translate.vue';
 
 export default {
   components: {
@@ -15,6 +25,8 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
+  body {
+    font-family: Hiragino Sans,Meiryo,sans-serif;;
+  }
 </style>
