@@ -14,23 +14,16 @@
         :activeColor="colors.primary"
         :passiveColor="colors.passive"
       ></translate>
+      <share-on-sns></share-on-sns>
     </v-main>
     <v-footer
       padless
       dark
     >
       <v-card :color="colors.accent" tile width="100%">
-        <v-card-text class="headline white--text">OGATA PROJECT 2020</v-card-text>
-        <v-card-text class="">
-          <v-btn class="mx-4 text-left" icon>
-            <fa-icon size="2x" :icon="['fab', 'twitter']"/>
-          </v-btn>
-          <v-btn class="mx-4" icon href="https://github.com/kmr-rmjr/onomatalk_web" target="_blank">
-            <fa-icon size="2x" :icon="['fab', 'github']"/>
-          </v-btn>
-        </v-card-text>
+        <v-card-text class="title white--text">OGATA PROJECT 2020</v-card-text>
         <v-divider />
-        <v-card-text class="font-weight-medium white--text text-center">©OGATA PROJECT 2020</v-card-text>
+        <v-card-text class="font-weight-medium white--text text-center">©OGATA PROJECT 2020, SENSHU University</v-card-text>
       </v-card>
     </v-footer>
   </v-app>
@@ -38,6 +31,7 @@
 
 <script>
 import Translate from '@/components/pages/Translate.vue';
+import ShareOnSns from './components/organisms/ShareOnSns.vue';
 
 export default {
   data() {
@@ -51,11 +45,13 @@ export default {
   },
   components: {
     Translate,
+    ShareOnSns,
   }
 }
 </script>
 
-<style>
+
+    ShareOnSns<style>
   body {
     font-family: Hiragino Sans,Meiryo,sans-serif;
   }

@@ -1,7 +1,3 @@
-/* 
-  複数のボタンから1つだけが選択されるコンポーネント。
- */
-
 <template>
   <v-row :justify="justify">
     <v-btn
@@ -20,7 +16,7 @@
 export default {
   props: {
     lists: {
-      type: Array,
+      type: [Array, Object],
       required: true
     },
     activeColor: {
@@ -53,7 +49,6 @@ export default {
     }
 
   },
-  // props: ['lists', 'activeColor', 'passiveColor', 'active', 'label', 'option', 'justify', 'className'],
   methods: {
     ChangeActive(lab) {
       this.$emit('my-click', lab);
