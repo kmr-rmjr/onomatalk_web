@@ -1,7 +1,7 @@
 # オノマトーク
 
 日本語のオノマトペを外国語に翻訳することに特化した web コミュニケータです。機械翻訳が苦手とするオノマトペのような曖昧な表現を 135 ヶ国語に翻訳することができます。  
-[Link](https://onomatalk.web.app/)
+[LINK](https://onomatalk.web.app/)
 
 ![demo](https://user-images.githubusercontent.com/67997077/103165764-e7eb1100-485e-11eb-8b3e-8d6b93bc8db1.png)
 
